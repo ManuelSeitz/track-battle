@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: theme(colors.neutral.700);
+  --foreground: theme(colors.neutral.50);
+}
+
+body {
+  color: var(--foreground);
+  background: var(--background);
+  font-family: theme(fontFamily.gabarito);
+}
+
+::selection {
+  color: theme(colors.neutral.950);
+  background-color: theme(colors.primary.500);
+}
